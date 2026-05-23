@@ -46,7 +46,8 @@ pip install -r requirements.txt
 python run_monitor.py
 
 ---
-## Пример вывода
+
+Как запустить
 
 === Проверка сайтов: 2026-05-23 11:05:44 ===
 Проверяю: https://www.google.com ... ✅ OK
@@ -68,6 +69,6 @@ site-monitor/
 └── requirements.txt     # Зависимости
 
 ---
-## Связь
+Связь
 
 📫 email: zaraza.my@mail.ru
