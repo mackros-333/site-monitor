@@ -44,22 +44,22 @@ python -m venv venv
 .\venv\Scripts\activate
 pip install -r requirements.txt
 python run_monitor.py
-
+pytest -v
 ```
 ---
 ## Пример вывода
-
+```
 === Проверка сайтов: 2026-05-23 11:05:44 ===
 Проверяю: https://www.google.com ... ✅ OK
 Проверяю: https://www.github.com ... ✅ OK
 Проверяю: https://www.python.org ... ✅ OK
 
 Результаты записаны в файл: site_status.log
-
+```
 ---
 
 ## Структура проекта
-
+```
 site-monitor/
 ├── src/
 │   └── monitor.py       # Класс SiteMonitor
@@ -68,6 +68,8 @@ site-monitor/
 ├── run_monitor.py       # Запуск мониторинга
 ├── site_status.log      # Лог-файл (создаётся автоматически)
 └── requirements.txt     # Зависимости
-
+```
+---
 ## Связь
+
 📫 email: zaraza.my@mail.ru
